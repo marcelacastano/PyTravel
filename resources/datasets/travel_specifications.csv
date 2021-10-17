@@ -1,0 +1,11 @@
+Country,Passport Validity in months,Blank Passport Pages,Tourist Visa,Maximum length of stay without visa in days
+Iceland,6,2,no,90
+Switzerland,6,1,no,90
+New Zealand,3,1,yes,0
+Germany,3,2,no,90
+Norway,6,2,no,90
+Finland,6,2,no,90
+Sweden,3,1,no,90
+Canada,6,1,no,180
+Denmark,6,1,no,90
+Australia,6,1,yes,0
