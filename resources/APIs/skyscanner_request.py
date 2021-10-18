@@ -24,4 +24,4 @@ def skyscanner_api(market_country, departure_date, return_date, departure_airpor
 
     response = requests.request("GET", request_url, headers=headers, params=querystring)
 
-    return response
+    return response.json()
