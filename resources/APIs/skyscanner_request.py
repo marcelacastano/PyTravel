@@ -1,3 +1,4 @@
+# Make necessary imports
 import os
 import requests
 import json
@@ -9,6 +10,8 @@ load_dotenv()
 # Set RAPID API key
 my_rapid_api_key = os.getenv("RAPID_API_KEY")
 
+
+# Define function to use skyscanner API
 
 def skyscanner_api(market_country, departure_date, return_date, departure_airport, destination_airport, locale, currency):
 
