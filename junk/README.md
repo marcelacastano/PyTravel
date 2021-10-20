@@ -1,1 +1,1 @@
-# Miami-FinTech-Project-1-Team-1
+# This folder contains files that ended up not beingused in the making of the project
