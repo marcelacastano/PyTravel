@@ -12,9 +12,9 @@ load_dotenv()
 my_rapid_api_key = os.getenv("RAPID_API_KEY")
 
 
-# Define function to use  BOOKING.COM API
+# Define function to retrieve locations from BOOKING.COM API
 
-def booking_api(city, locale):
+def booking_locations_api(city, locale):
 
     url = "https://booking-com.p.rapidapi.com/v1/hotels/locations"
 
