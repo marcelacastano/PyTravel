@@ -1,23 +1,26 @@
+Requirements:
+
+Create a README.md in your repo with a write-up summarizing your major findings. This should include a heading for each question you asked of your data and under each heading a short description of what you found and any relevant plots.
+
+
 # PyTravel: Go, Find, Explore!
 
 ![Pexels01](resources/images/pexels-andrew-neel-2859169.jpg)
-
 *Photo by Andrew Neel from Pexels*
-
-<br>
 
 ---
 
-## Summary
+## Welcome to PyTravel, our FinTech-powered travel agency
 
-We are a travel agency. Main objectives are:
+<br>
 
-    * Analyze tourism data to report trends and findings to marketing team
+PyTravel's main objectives are:
 
-    * Provide clients with flight and hotel options for their next trip
+* Analyze tourism data to report trends to the marketing team
 
-    * Provide up-to-date information on COVID-19 travel restrictions
+* Provide clients with flight and hotel options for their next trip
 
+* Provide up-to-date information on COVID-19 travel restrictions
 
 ---
 
@@ -71,9 +74,3 @@ Team #1
 * Monique Ferguson
 * Frank Lau
 * Marcela Castaño
-
-
-Requirements:
-
-Create a README.md in your repo with a write-up summarizing your major findings. This should include a heading for each question you asked of your data and under each heading a short description of what you found and any relevant plots.
-
