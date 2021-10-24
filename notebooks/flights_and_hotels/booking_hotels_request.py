@@ -14,7 +14,7 @@ my_rapid_api_key = os.getenv("RAPID_API_KEY")
 
 # Define function to retrieve locations from BOOKING.COM API
 
-def booking_hotels_api(dest_type, departure_date, return_date, nr_rooms, locale, random_dest_id, nr_adults):
+def booking_hotels_api(dest_type, departure_date, return_date, nr_rooms, locale_booking, random_dest_id, nr_adults):
    
 
     url = "https://booking-com.p.rapidapi.com/v1/hotels/search"
@@ -26,9 +26,9 @@ def booking_hotels_api(dest_type, departure_date, return_date, nr_rooms, locale,
         "order_by":"popularity",
         "dest_id": random_dest_id,
         "adults_number":nr_adults,
-        "units":"metric",
+        "units":"imperial",
         "filter_by_currency":"USD",
-        "locale":locale,
+        "locale":locale_booking,
         "include_adjacency":"true",
         "categories_filter_ids":"free_cancellation:1"
         }

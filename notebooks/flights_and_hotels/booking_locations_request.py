@@ -14,11 +14,11 @@ my_rapid_api_key = os.getenv("RAPID_API_KEY")
 
 # Define function to retrieve locations from BOOKING.COM API
 
-def booking_locations_api(city, locale):
+def booking_locations_api(city, locale_booking):
 
     url = "https://booking-com.p.rapidapi.com/v1/hotels/locations"
 
-    querystring = {"name": {city},"locale": {locale}}
+    querystring = {"name": {city},"locale": {locale_booking}}
 
     headers = {
         'x-rapidapi-host': "booking-com.p.rapidapi.com",

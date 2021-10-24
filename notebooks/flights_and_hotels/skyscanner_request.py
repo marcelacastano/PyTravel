@@ -13,10 +13,10 @@ my_rapid_api_key = os.getenv("RAPID_API_KEY")
 
 # Define function to use skyscanner API
 
-def skyscanner_api(market_country, departure_date, return_date, departure_airport, destination_airport, locale, currency):
+def skyscanner_api(market_country, departure_date, return_date, departure_airport, destination_airport, locale_skyscanner, currency):
 
     base_url = "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/"
-    request_url= base_url + f"{market_country}/{currency}/{locale}/{departure_airport}-sky/{destination_airport}-sky/{departure_date}"
+    request_url= base_url + f"{market_country}/{currency}/{locale_skyscanner}/{departure_airport}-sky/{destination_airport}-sky/{departure_date}"
 
     querystring = {"inboundpartialdate":return_date}
 
