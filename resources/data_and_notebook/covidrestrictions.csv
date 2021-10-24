@@ -1,4 +1,4 @@
-Country,A3Code,X,Y,Status,Description,Vaccination
+Country,A3Code,X,Y,Status,Restrictions,Vaccination
 Afghanistan,AFG,66.026881,33.831602,Open with restrictions,Most visitors from the United States need to provide a negative COVID-19 test result to enter Afghanistan.,2.08% of population has been vaccinated
 Albania,ALB,20.066643,41.138926,Open with restrictions,"Unvaccinated visitors from the United States can enter Albania with a negative COVID-19 test result.
 
