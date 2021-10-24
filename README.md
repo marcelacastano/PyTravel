@@ -1,18 +1,12 @@
-Requirements:
-
-Create a README.md in your repo with a write-up summarizing your major findings. This should include a heading for each question you asked of your data and under each heading a short description of what you found and any relevant plots.
-
-
 # PyTravel: Go, Find, Explore!
 
 ![Pexels01](resources/images/pexels-andrew-neel-2859169.jpg)
 *Photo by Andrew Neel from Pexels*
 
----
-
-## Welcome to PyTravel, our FinTech-powered travel agency
 
 <br>
+
+# Welcome to PyTravel, the FinTech-Powered Travel Agency
 
 PyTravel's main objectives are:
 
@@ -22,55 +16,66 @@ PyTravel's main objectives are:
 
 * Provide up-to-date information on COVID-19 travel restrictions
 
----
+<br>
 
-## Contents
+# Contents
 
-Here are the questions we have asked ourselves:
+Here's a breakdown of the solutions we provide.
+
+## Tourism
+
+* 
+* 
+* 
+* 
+* 
 
 <br>
 
-### Tourism Analysis
+## COVID-19 Restrictions
 
 * 
-* 
-* 
-* 
-* 
+*
 
 <br>
 
-### COVID-19 Restrictions
 
-*
-*
+
+## Trip Planner
+
+The Trip Planner Notebook generates two text files for flight and hotel quotes, and a client-focused dashboard.
 
 <br>
 
 ### Flight Search with SkyScanner API
 
-*
-*
+*What are the flight options available for the client's intended destination?*
 
+>   * A text file named `flights_output.txt` with detailed flight quote(s) information
+>   * A bar plot with price for any and all quotes retrieved by the API
 
 <br>
 
-### Hotel Search with Booking.com API
+### Hotel Search with Booking com API
 
-*
-*
-*
+*What is the hotel availability in the destination of interest?*
+
+>   * A scatter plot map with the number of hotels in a given city
+
+<br>
+
+*What are some of the hotel options? How do these compare to each other in price and quality?*
+
+>   * A text file named `hotels_output.txt` with detailed information for 20 hotels in the area
+
+<br>
+
+*How can we compare hotel locations with other points of reference?*
+
+>   * An interactive map with location, price and review score data for 20 hotels
 
 ---
 
-#### Miami FinTech Bootcamp 2021-2022
+### Miami FinTech Bootcamp 2021-2022
 
-#### Project 1
-
-<br>
-
-Team #1
-
-* Monique Ferguson
-* Frank Lau
-* Marcela Castaño
+#### Monique Ferguson, Frank Lau and Marcela Castaño
