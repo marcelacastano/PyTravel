@@ -1,130 +1,126 @@
 Here are some hotel options for you:
 ----------------------------------------------------------
-Nap York Youth Hostel
-8.0/10.0)
-940 8th Avenue 4th floor NY 10019
-Price: $1070.91
-https://www.booking.com/hotel/us/nap-york-new-york1.html
-Only 4 left at this price on Booking.com
- 
 West Side YMCA
 7.3/10.0)
 5 West 63rd Street NY 10023
-Price: $1371.20
+Price: $1231.20
 https://www.booking.com/hotel/us/west-side-ymca.html
  
-Park West Hotel
-6.5/10.0)
-465 Central Park West NY 10025
-Price: $3083.10
-https://www.booking.com/hotel/us/astor-on-central-park.html
-Only 3 left at this price on Booking.com
+Pod Times Square
+8.5/10.0)
+400 West 42nd Street NY 10036
+Price: $2196.18
+https://www.booking.com/hotel/us/pod-times-square.html
  
-La Quinta by Wyndham New York City Central Park
-7.3/10.0)
-31 West 71st Street NY 10023
-Price: $3699.94
-https://www.booking.com/hotel/us/la-quinta-new-york-city-central-park.html
+The New Yorker, A Wyndham Hotel
+7.8/10.0)
+481 Eighth Avenue NY 10001 
+Price: $2308.50
+https://www.booking.com/hotel/us/new-yorker-ramada-plaza.html
  
-Sonder l Chambers
-8.8/10.0)
-15 West 56th Street NY 10019
-Price: $4803.32
-https://www.booking.com/hotel/us/chambers.html
+Holiday Inn Manhattan Financial District, an IHG Hotel
+8.1/10.0)
+99 Washington Street NY 10006
+Price: $3057.48
+https://www.booking.com/hotel/us/holiday-inn-financial-district.html
+ 
+Hotel Edison Times Square
+7.7/10.0)
+228 West 47th Street NY 10036
+Price: $3249.00
+https://www.booking.com/hotel/us/edison-triumph-group.html
+ 
+Hotel Hayden New York
+8.0/10.0)
+127 West 28th Street NY 10001
+Price: $3460.80
+https://www.booking.com/hotel/us/hayden.html
+ 
+Ameritania at Times Square
+8.2/10.0)
+230 West 54th Street NY 10019
+Price: $3473.10
+https://www.booking.com/hotel/us/ameritania-manhattan.html
+Only 2 left at this price on Booking.com
+ 
+Hotel Indigo Lower East Side, an IHG Hotel
+8.1/10.0)
+171 Ludlow Street NY 10002
+Price: $3817.84
+https://www.booking.com/hotel/us/indigo-lower-east-side.html
 Only 1 left at this price on Booking.com
  
-AKA Central Park
-8.6/10.0)
-42 West 58th Street NY 10019
-Price: $4816.18
-https://www.booking.com/hotel/us/korman-kommunities-central-park.html
- 
-Park Central
-7.8/10.0)
-870 7th Avenue at 56th Street NY 10019
-Price: $5346.78
-https://www.booking.com/hotel/us/park-central.html
- 
-Shoreham Hotel
-7.8/10.0)
-33 West 55th Street NY 10019
-Price: $5437.38
-https://www.booking.com/hotel/us/shoreham.html
-Only 4 left at this price on Booking.com
- 
-WestHouse Hotel New York
-8.1/10.0)
-201 West 55th Street NY 10019
-Price: $7135.80
-https://www.booking.com/hotel/us/westhouse-new-york.html
- 
-Le Meridien New York, Central Park
-7.4/10.0)
-120 West 57th Street NY 10019
-Price: $7900.76
-https://www.booking.com/hotel/us/new-york-central-park-le-meridien.html
- 
-West 57th Street by Hilton Club
-8.4/10.0)
-102 West 57th Street NY 10019
-Price: $9320.95
-https://www.booking.com/hotel/us/west-57th-street-by-hilton-club.html
-Only 3 left at this price on Booking.com
- 
-Park Lane New York
-7.7/10.0)
-36 Central Park South NY 10019
-Price: $10053.82
-https://www.booking.com/hotel/us/helmsley-park-lane.html
- 
-Thompson Central Park - New York
-8.0/10.0)
-119 West 56th Street NY 10019
-Price: $12455.20
-https://www.booking.com/hotel/us/thompson-centralpark.html
- 
-JW Marriott Essex House New York
-8.3/10.0)
-160 Central Park South NY 10019
-Price: $12867.74
-https://www.booking.com/hotel/us/j-e-house-new-york-new-york.html
-Only 3 left at this price on Booking.com
- 
-Loews Regency New York Hotel
-8.7/10.0)
-540 Park Avenue NY 10065
-Price: $12926.25
-https://www.booking.com/hotel/us/loews-regency.html
- 
-1 Hotel Central Park
-8.7/10.0)
-1414 Avenue of the Americas NY 10019
-Price: $13327.02
-https://www.booking.com/hotel/us/1-hotel-central-park.html
- 
-Trump International New York
-9.0/10.0)
-One Central Park West NY 10023
-Price: $14661.73
-https://www.booking.com/hotel/us/trump-international-new-york.html
-Only 3 left at this price on Booking.com
- 
-The Pierre, A Taj Hotel, New York
-8.9/10.0)
-Two East 61st Street at 5th Avenue NY 10065
-Price: $18457.22
-https://www.booking.com/hotel/us/the-pierre-a-taj.html
- 
-The Ritz-Carlton New York, Central Park
-8.5/10.0)
-50 Central Park South NY 10019
-Price: $20944.97
-https://www.booking.com/hotel/us/the-ritz-carlton-new-york-central-park.html
-Only 3 left at this price on Booking.com
- 
-The St. Regis New York
+MOXY NYC Times Square
 8.2/10.0)
-Two East 55th Street at Fifth Avenue NY 10022
-Price: $21473.97
-https://www.booking.com/hotel/us/st-regis-new-york.html
+485 7th Avenue NY 10018
+Price: $3936.00
+https://www.booking.com/hotel/us/moxy-nyc-times-square.html
+ 
+citizenM New York Bowery
+9.1/10.0)
+189 Bowery NY 10002
+Price: $3968.23
+https://www.booking.com/hotel/us/citizenm-new-york-bowery.html
+ 
+citizenM New York Times Square
+9.1/10.0)
+218 West 50th Street NY 10019
+Price: $4374.93
+https://www.booking.com/hotel/us/citizenm-new-york-times-square-new-york.html
+ 
+Crowne Plaza HY36 Midtown Manhattan, an IHG Hotel
+8.6/10.0)
+320 West 36th Street NY 10018
+Price: $4388.40
+https://www.booking.com/hotel/us/crowne-plaza-midtown-manhattan.html
+Only 1 left at this price on Booking.com
+ 
+Room Mate Grace Boutique Hotel
+8.5/10.0)
+125 West 45th Street NY 10036
+Price: $4477.02
+https://www.booking.com/hotel/us/room-mate-grace.html
+ 
+Hilton Garden Inn Times Square
+8.3/10.0)
+790 Eighth Avenue NY 10019
+Price: $4577.40
+https://www.booking.com/hotel/us/hilton-garden-inn-times-square.html
+ 
+The Gotham Hotel
+8.3/10.0)
+16 East 46th Street NY 10017
+Price: $4654.32
+https://www.booking.com/hotel/us/the-gotham-on-46th-street.html
+ 
+Hilton Garden Inn Central Park South
+7.9/10.0)
+237 West 54th Street NY 10019
+Price: $5221.89
+https://www.booking.com/hotel/us/hilton-garden-inn-central-park-south.html
+ 
+InterContinental New York Times Square, an IHG Hotel
+8.2/10.0)
+300 West 44th Street NY 10036
+Price: $5567.00
+https://www.booking.com/hotel/us/intercontinental-new-york-times-square.html
+ 
+LUMA Hotel - Times Square
+9.1/10.0)
+120 West 41st Street NY 10036-7315
+Price: $5911.15
+https://www.booking.com/hotel/us/luma-times-square.html
+Only 1 left at this price on Booking.com
+ 
+Park Terrace Hotel on Bryant Park
+9.0/10.0)
+18 West 40th Street NY 10018
+Price: $6064.00
+https://www.booking.com/hotel/us/park-terrace.html
+ 
+Concorde Hotel New York
+8.9/10.0)
+127 East 55th Street NY 10022
+Price: $6446.00
+https://www.booking.com/hotel/us/concorde-new-york.html
  

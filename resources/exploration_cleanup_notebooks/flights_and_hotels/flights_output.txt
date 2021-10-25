@@ -2,13 +2,13 @@ Here are some flight options we have found:
 ----------------------------------------------------------
 Option 1:
 -Flight with layover(s)-
-Spirit Airlines for $103, leaving on 2021-12-01T00:00:00
+Alaska Airlines for $104, leaving on 2021-12-01
 Departing from New York John F. Kennedy, JFK
 Arriving at Los Angeles International, LAX
  
 Option 2:
 -Direct flight-
-Hawaiian Airlines for $152, leaving on 2021-12-01T00:00:00
+jetBlue for $148, leaving on 2021-12-01
 Departing from New York John F. Kennedy, JFK
 Arriving at Los Angeles International, LAX
  
