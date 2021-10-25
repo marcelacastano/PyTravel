@@ -6,7 +6,7 @@
 
 <br>
 
-# Welcome to PyTravel, the FinTech-Powered Travel Agency
+## Welcome to PyTravel, the FinTech-Powered Travel Agency
 
 PyTravel's main objectives are:
 
@@ -45,8 +45,6 @@ Here's a breakdown of the solutions we provide.
 
 The Trip Planner Notebook generates two text files for flight and hotel quotes, and a client-focused dashboard.
 
-<br>
-
 ### Flight Search with SkyScanner API
 
 *What are the flight options available for the client's intended destination?*
@@ -54,7 +52,6 @@ The Trip Planner Notebook generates two text files for flight and hotel quotes, 
 >   * A text file named `flights_output.txt` with detailed flight quote(s) information
 >   * A bar plot with price for any and all quotes retrieved by the API
 
-<br>
 
 ### Hotel Search with Booking com API
 
@@ -62,13 +59,13 @@ The Trip Planner Notebook generates two text files for flight and hotel quotes, 
 
 >   * A scatter plot map with the number of hotels in a given city
 
-<br>
 
 *What are some of the hotel options? How do these compare to each other in price and quality?*
 
 >   * A text file named `hotels_output.txt` with detailed information for 20 hotels in the area
 
-<br>
+
+### Folium Library
 
 *How can we compare hotel locations with other points of reference?*
 
