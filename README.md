@@ -16,6 +16,10 @@ PyTravel's main objectives are:
 
 * Provide up-to-date information on COVID-19 travel restrictions
 
+You will find three directories that address each of these objectives if you follow the path:
+
+> `resources/exploration_cleanup_notebooks/`
+
 <br>
 
 # Contents
@@ -64,6 +68,8 @@ The Trip Planner Notebook generates two text files for flight and hotel quotes, 
 >   * A text file named `flights_output.txt` with detailed flight quote(s) information
 >   * A bar plot with price for any and all quotes retrieved by the API
 
+![flights](resources/exploration_cleanup_notebooks/flights_and_hotels/flights.png)
+
 
 ### Hotel Search with Booking com API
 
@@ -71,11 +77,15 @@ The Trip Planner Notebook generates two text files for flight and hotel quotes, 
 
 >   * A scatter plot map with the number of hotels in a given city
 
+![hotel locations](resources/exploration_cleanup_notebooks/flights_and_hotels/hotel_locations.png)
 
 *What are some of the hotel options? How do these compare to each other in price and quality?*
 
->   * A text file named `hotels_output.txt` with detailed information for 20 hotels in the area
+> * A text file named `hotels_output.txt` with detailed information for 20 hotels in the area
 
+> * A scatter plot of pricing vs. review scores for hotels in the location of choice
+
+![hotel pricing](resources/exploration_cleanup_notebooks/flights_and_hotels/hotel_pricing.png)
 
 ### Folium Library
 
@@ -83,6 +93,7 @@ The Trip Planner Notebook generates two text files for flight and hotel quotes, 
 
 >   * An interactive map with location, price and review score data for 20 hotels
 
+![hotels_map](resources/exploration_cleanup_notebooks/flights_and_hotels/hotels_map.png)
 ---
 
 ### Miami FinTech Bootcamp 2021-2022
