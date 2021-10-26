@@ -22,13 +22,25 @@ PyTravel's main objectives are:
 
 Here's a breakdown of the solutions we provide.
 
-## Tourism
+## Tourism Analysis
 
-* 
-* 
-* 
-* 
-* 
+*  What has been the trend of international travel?
+
+![International Travel Number of Arrivals From 1995 - 2019](resources/exploration_cleanup_notebooks/travel_analysis/scattergeo_number_arrivals_per_year.png)
+
+*  Where in the world do tourists travel the most? Continent?
+
+![Most Travelled to Continents From 1995 - 2019](resources/exploration_cleanup_notebooks/travel_analysis/most_travelled_to_continents.png)
+
+![Progression of Travel From 1995 - 2019](resources/exploration_cleanup_notebooks/travel_analysis/progression_of_travel.png)
+
+*  Which countries did the most tourists travel to between the years 1995 - 2019?
+
+![Top 10 Travel Countries From 1995 - 2019](resources/exploration_cleanup_notebooks/travel_analysis/top_10_countries.png)
+
+*  How does 2020 travel compare to travel in 2019 and thus far in 2021?
+![TSA Travel 2019-2021](resources/exploration_cleanup_notebooks/travel_analysis/tsa.png)
+
 
 <br>
 
