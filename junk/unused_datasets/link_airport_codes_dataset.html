@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)https://ourairports.com/data/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Open data @ OurAirports</title>
+        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> @ OurAirports</title>
+    <link rel="stylesheet" href="./Open data @ OurAirports_files/leaflet.css">
+    <link href="./Open data @ OurAirports_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./Open data @ OurAirports_files/local.css" rel="stylesheet">
+    <link rel="shortcut icon" sizes="196x196" href="./Open data @ OurAirports_files/logo-196px.png">
+    <link rel="shortcut icon" sizes="128x128" href="https://ourairports.com/images/logo-128px.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="https://ourairports.com/images/logo-128px.png">
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="https://ourairports.com/images/logo-128px.png">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  <style></style></head>
+  <body class="container-fluid row">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand" href="https://ourairports.com/" title="OurAirports home">
+    <span>
+      <img src="./Open data @ OurAirports_files/logo-196px.png" alt="OurAirports home">
+      <span class="site-name visible-lg-inline">OurAirports</span>
+    </span>
+  </a>
+    <form class="navbar-form visible-xs small-search" role="search" action="https://ourairports.com/search">
+    <div class="input-group">
+      <input type="text" class="form-control" name="q" placeholder="Search for an airport">
+      <div class="input-group-btn">
+        <button type="submit" class="btn btn-default" aria-label="Search">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+      </div>
+    </div>
+  </form>
+  </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav">
+                <li class="">
+          <a href="https://ourairports.com/world.html">
+            <span class="glyphicon glyphicon-globe"></span>
+            <span class="visible-lg-inline">World</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="https://ourairports.com/airports/">
+            <span class="glyphicon glyphicon-plane"></span>
+            <span class="visible-lg-inline">Airports</span>
+          </a>
+        </li>
+        <li class="">
+          <a href="https://ourairports.com/comments.html">
+            <span class="glyphicon glyphicon-comment"></span>
+            <span class="visible-lg-inline">Comments</span>
+          </a>
+        </li>
+        <li class="active">
+          <a href="https://ourairports.com/data/">
+            <span class="glyphicon glyphicon-download-alt"></span>
+            <span class="visible-lg-inline">Downloads</span>
+          </a>
+        </li>
+        <li class="dropdown">
+          <a href="https://ourairports.com/data/#" class="dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-info-sign"></span>
+            <span class="visible-lg-inline">Site info</span>
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="">
+              <a href="https://ourairports.com/stats/contributors.html">
+                <span class="glyphicon glyphicon-blackboard"></span>
+                Contributor leaderboard
+              </a>
+            </li>
+            <li class="">
+              <a href="https://ourairports.com/about.html">
+                <span class="glyphicon glyphicon-book"></span>
+                About
+              </a>
+            </li>
+            <li class="">
+              <a href="https://ourairports.com/contact.html">
+                <span class="glyphicon glyphicon-envelope"></span>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+
+  <li class="dropdown hidden-xs">
+    <a href="https://ourairports.com/data/#" class="dropdown-toggle" data-toggle="dropdown">
+      <span class="glyphicon glyphicon-cog"></span>
+      <span class="hidden-sm">
+                Login
+              </span>
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+
+      
+      <li class="">
+        <a href="https://ourairports.com/login?from=/data/">
+          <span class="glyphicon glyphicon-log-in"></span>
+          Login
+        </a>
+      </li>
+
+      <li class="">
+        <a href="https://ourairports.com/signup.html?from=/data/">
+          <span class="glyphicon glyphicon-user"></span>
+          Sign up
+        </a>
+      </li>
+
+          </ul>
+  </li>
+
+  
+  <li class="visible-xs ">
+    <a href="https://ourairports.com/login?from=/data/">
+      <span class="glyphicon glyphicon-log-in"></span>
+      Login
+    </a>
+  </li>
+
+  <li class="visible-xs ">
+    <a href="https://ourairports.com/signup.html?from=/data/">
+      <span class="glyphicon glyphicon-user"></span>
+      Sign up
+    </a>
+  </li>
+
+  
+  <li class="">
+    <a href="https://ourairports.com/help/">
+      <span class="glyphicon glyphicon-question-sign"></span>
+      <span class="hidden-sm hidden-md">Help</span>
+    </a>
+  </li>
+
+    <li class="hidden-xs large-search">
+    <form class="navbar-form" role="search" action="https://ourairports.com/search">
+      <div class="input-group">
+        <input type="search" class="form-control" name="q" value="" placeholder="Search for an airport">
+        <div class="input-group-btn">
+          <button type="submit" class="btn btn-default" aria-label="Search">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </div>
+      </div>
+    </form>
+  </li>
+  
+</ul>
+    </div>
+  </div>
+</nav>
+
+    <header class="col-sm-12">
+      <h1>
+        Open data downloads
+      </h1>
+    </header>
+    <main class="col-sm-12">
+      <p>
+        Data should be open and sharable.
+      </p>
+      <p>
+        OurAirports has <a href="http://en.wikipedia.org/wiki/RSS">RSS</a> feeds for <a href="https://ourairports.com/comments.rss">comments</a>, <a href="http://en.wikipedia.org/wiki/Comma-separated_values">CSV</a>
+        and <a href="http://hxlstandard.org/">HXL</a> data downloads
+        for geographical regions, and <a href="http://en.wikipedia.org/wiki/Keyhole_Markup_Language">KML</a>
+        files for individual airports and personal airport lists (so
+        that you can get your personal airport list any time you
+        want).
+      </p>
+      <p class="alert alert-warning">
+        Microsoft Excel users should read the <a href="https://ourairports.com/data/#excel">special instructions</a> below.
+      </p>
+      <section id="downloads">
+        <h2>Downloads</h2>
+        <img alt="Picture of a spreadsheet" src="./Open data @ OurAirports_files/spreadsheet.png" align="right">
+        <p>
+          For more intense work, we have a <a href="http://en.wikipedia.org/wiki/Comma-separated_values">CSV</a>-formatted
+          data dump of all our airports, countries, and regions, which
+          we update every night.  You can download these files and
+          open them with almost any spreadsheet program or import them
+          into your own database.  You can even use them to set up
+          your own, competing airport web site if you'd like!  We'd
+          love you to give us credit, like <a href="https://ourairports.com/about.html#credits">we give credit to our
+          sources</a>, but you're not required to.
+        </p>
+        <section id="tos">
+          <h3>Terms of use</h3>
+          <p>
+            <strong>DOWNLOAD AND USE AT YOUR OWN RISK!</strong> We
+            hereby release all of these files into the <a href="http://en.wikipedia.org/wiki/Public_domain">Public
+            Domain</a>, with <strong>no warranty of any kind</strong>
+            — By downloading any of these files, you agree that
+            OurAirports.com, Megginson Technologies Ltd., and anyone
+            involved with the web site or company hold <strong>no
+            liability</strong> for anything that happens when you use
+            the data, including (but not limited to) computer damage,
+            lost revenue, flying into cliffs, or a general feeling of
+            drowsiness that persists more than two days.
+          </p>
+          <p>
+            <strong>Do you agree</strong> with the above conditions?
+            If so, then download away!
+          </p>
+        </section>
+        <section id="files">
+          <h3>Datasets</h3>
+
+          <p>
+            For information about the columns and values in the
+            datasets, please visit the <a href="https://ourairports.com/help/data-dictionary.html">Data dictionary</a>
+            page.
+          </p>
+          
+          <dl>
+
+            <dt>
+              <a href="https://ourairports.com/data/airports.csv">airports.csv</a> <span class="note">(9,959,049 bytes,
+              last modified Oct 19, 2021)</span>
+            </dt>
+            <dd>
+              Large file, containing information on all airports on this
+              site.
+            </dd>
+
+            <dt>
+              <a href="https://ourairports.com/data/airport-frequencies.csv">airport-frequencies.csv</a>
+              <span class="note">(1,220,040
+              bytes, last modified
+              Oct 19, 2021)</span>
+            </dt>
+            <dd>
+              Large file, listing communication frequencies for the
+              airports in <code>airports.csv</code>.
+            </dd>
+            
+            <dt>
+              <a href="https://ourairports.com/data/runways.csv">runways.csv</a> <span class="note">(3,121,275 bytes,
+              last modified
+              Oct 19, 2021)</span>
+            </dt>
+            <dd>
+              Large file, listing runways for the airports in
+              <code>airports.csv</code>.
+            </dd>
+
+            <dt>
+              <a href="https://ourairports.com/data/navaids.csv">navaids.csv</a> <span class="note">(1,526,491 bytes,
+              last modified Oct 19, 2021)</span>
+            </dt>
+            <dd>Large file, listing worldwide radio navigation aids.</dd>
+
+            <dt>
+              <a href="https://ourairports.com/data/countries.csv">countries.csv</a> <span class="note">(20,663 bytes,
+              last modified
+              Oct 19, 2021)</span>
+            </dt>
+            <dd>
+              A list of the world's countries.  You need this
+              spreadsheet to interpret the country codes in the airports
+              and navaids files.
+            </dd>
+
+            <dt>
+              <a href="https://ourairports.com/data/regions.csv">regions.csv</a> <span class="note">(369,879 bytes,
+              last modified
+              Oct 19, 2021)</span>
+            </dt>
+            <dd>
+              A list of all countries' regions (provinces, states,
+              etc.).  You need this spreadsheet to interpret the region
+              codes in the airport file.
+            </dd>
+          </dl>
+        </section>
+      </section>
+      <section id="excel">
+        <h2>Workarounds for Microsoft Excel</h2>
+
+        <p>The CSV files above use the Unicode <a href="http://en.wikipedia.org/wiki/UTF-8">UTF-8</a> character encoding
+        to represent a wide range of non-English characters, such as Hellenic,
+        Cyrillic, Han Chinese, and Arabic scripts, as well as accented Latin
+        characters.</p>
+
+        <p>Unfortunately, <a href="http://en.wikipedia.org/wiki/Microsoft_Excel">Microsoft
+        Excel</a> does not detect the character encoding of CSV files, and
+        does not allow you to specify the encoding when you open them, always
+        assuming a proprietary Microsoft character encoding.  As a result, if
+        you simply open the CSV files in Excel, any non-English characters
+        will be scrambled.</p>
+
+        <p>There are two workarounds available:</p>
+
+        <ol>
+          <li>Create a new, blank spreadsheet first, then use Excel's text
+          import tool to load the CSV file into the blank spreadsheet.</li>
+          <li>Rename the CSV file's extension to ".txt" before opening it with
+          Excel.</li>
+        </ol>
+
+
+        <p>In both cases, Excel will give you an opportunity to specify the
+        field separator (",") and the character encoding ("UTF-8"), and then
+        accented and other non-English characters should appear without
+        problem.</p>
+
+        <p>These workarounds are not necessary for <a href="http://en.wikipedia.org/wiki/OpenOffice.org_Calc">OpenOffice
+        Calc</a>, which always prompts for the character encoding when opening
+        a CSV file (just choose "UTF-8").</p>
+      </section>
+      <section id="changes">
+        <h2>Recent changes</h2>
+
+        <dl>
+
+          <dt>2009-08-17</dt>
+          <dd>Added <code>navaids.csv</code> listing worldwide radio navigation aids.</dd>
+
+          <dt>2009-08-06</dt>
+          <dd>Added <code>airport-frequencies.csv</code>
+          and <code>runways.csv</code> to share new communication and runway data.</dd>
+
+          <dt>2009-07-14</dt>
+          <dd>There are new columns
+          in all CSV pages, region codes are now full ISO 3316-2 codes
+          (e.g. "US-NY" instead of "NY"), and some names have changed in
+          regions.csv.  Please check the files carefully before using.</dd>
+
+        </dl>
+      </section>
+    </main>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./Open data @ OurAirports_files/jquery.min.js.download"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./Open data @ OurAirports_files/bootstrap.min.js.download"></script>
+<script src="./Open data @ OurAirports_files/general.js.download" type="text/javascript"></script>
+<script src="./Open data @ OurAirports_files/leaflet.js.download"></script>
+  
+
+</body></html>

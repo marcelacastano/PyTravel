@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aa6156db3302442ba67cb346f3d24f90 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_aa6156db3302442ba67cb346f3d24f90" ></div>
+        
+</body>
+<script>    
+    
+            var map_aa6156db3302442ba67cb346f3d24f90 = L.map(
+                "map_aa6156db3302442ba67cb346f3d24f90",
+                {
+                    center: [40.7708451, -73.9806124],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4732b5ae8af14339b2ff7e553e4a6982 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var marker_fc43742ae9554cca81f3efb9b2a836fa = L.marker(
+                [40.7708451, -73.9806124],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_7d2f26d3aff348788ef32734d6dbe203 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fc43742ae9554cca81f3efb9b2a836fa.setIcon(icon_7d2f26d3aff348788ef32734d6dbe203);
+        
+    
+        var popup_1e4e5c68593b42bf99c922235dae48ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bb7e2e6f38f4cc58c967f05b91a7c64 = $(`<div id="html_6bb7e2e6f38f4cc58c967f05b91a7c64" style="width: 100.0%; height: 100.0%;">7.3/10</div>`)[0];
+            popup_1e4e5c68593b42bf99c922235dae48ec.setContent(html_6bb7e2e6f38f4cc58c967f05b91a7c64);
+        
+
+        marker_fc43742ae9554cca81f3efb9b2a836fa.bindPopup(popup_1e4e5c68593b42bf99c922235dae48ec)
+        ;
+
+        
+    
+    
+            marker_fc43742ae9554cca81f3efb9b2a836fa.bindTooltip(
+                `<div>
+                     West Side YMCA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db1bef262554465cbeb52be9d2603026 = L.marker(
+                [40.7559105, -73.969078],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_06214521f40741a0963faefee5127948 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_db1bef262554465cbeb52be9d2603026.setIcon(icon_06214521f40741a0963faefee5127948);
+        
+    
+        var popup_e4531c0f87264016b7af664675addea2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a009d6c5198f4712b0beef8c6ef25f28 = $(`<div id="html_a009d6c5198f4712b0beef8c6ef25f28" style="width: 100.0%; height: 100.0%;">8.0/10</div>`)[0];
+            popup_e4531c0f87264016b7af664675addea2.setContent(html_a009d6c5198f4712b0beef8c6ef25f28);
+        
+
+        marker_db1bef262554465cbeb52be9d2603026.bindPopup(popup_e4531c0f87264016b7af664675addea2)
+        ;
+
+        
+    
+    
+            marker_db1bef262554465cbeb52be9d2603026.bindTooltip(
+                `<div>
+                     Pod 51
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a069cbf3b2c84ae0a9a9f7eb8ee2218d = L.marker(
+                [40.7526284209899, -73.9933524280787],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_77efb9d72bf44b7e8bdfdee9684d56b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a069cbf3b2c84ae0a9a9f7eb8ee2218d.setIcon(icon_77efb9d72bf44b7e8bdfdee9684d56b1);
+        
+    
+        var popup_03e38c74dd8645c3ad86eb880666e03d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5ef441d80794fb3a512820c0d71ee90 = $(`<div id="html_e5ef441d80794fb3a512820c0d71ee90" style="width: 100.0%; height: 100.0%;">7.8/10</div>`)[0];
+            popup_03e38c74dd8645c3ad86eb880666e03d.setContent(html_e5ef441d80794fb3a512820c0d71ee90);
+        
+
+        marker_a069cbf3b2c84ae0a9a9f7eb8ee2218d.bindPopup(popup_03e38c74dd8645c3ad86eb880666e03d)
+        ;
+
+        
+    
+    
+            marker_a069cbf3b2c84ae0a9a9f7eb8ee2218d.bindTooltip(
+                `<div>
+                     The New Yorker, A Wyndham Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2ec3eca1fc844aab2f7d96dcc4faf3a = L.marker(
+                [40.7583945, -73.9930985],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_fc139ac2b35648f4a92122422d6dc690 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b2ec3eca1fc844aab2f7d96dcc4faf3a.setIcon(icon_fc139ac2b35648f4a92122422d6dc690);
+        
+    
+        var popup_015d7ca7df2d474d81f23ee1929898b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_188e3f4d65b94cf4a809352cfb5bbcd6 = $(`<div id="html_188e3f4d65b94cf4a809352cfb5bbcd6" style="width: 100.0%; height: 100.0%;">8.5/10</div>`)[0];
+            popup_015d7ca7df2d474d81f23ee1929898b5.setContent(html_188e3f4d65b94cf4a809352cfb5bbcd6);
+        
+
+        marker_b2ec3eca1fc844aab2f7d96dcc4faf3a.bindPopup(popup_015d7ca7df2d474d81f23ee1929898b5)
+        ;
+
+        
+    
+    
+            marker_b2ec3eca1fc844aab2f7d96dcc4faf3a.bindTooltip(
+                `<div>
+                     Pod Times Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7d60825ebd04c52828cbee429c311b8 = L.marker(
+                [40.756511, -73.99269],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_7d4a96c329904de49ef4a1ef523587ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f7d60825ebd04c52828cbee429c311b8.setIcon(icon_7d4a96c329904de49ef4a1ef523587ca);
+        
+    
+        var popup_9e2c14d5aba447e18318aa64a63f6622 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_453ad43ea30d495690bad40145e04a09 = $(`<div id="html_453ad43ea30d495690bad40145e04a09" style="width: 100.0%; height: 100.0%;">7.4/10</div>`)[0];
+            popup_9e2c14d5aba447e18318aa64a63f6622.setContent(html_453ad43ea30d495690bad40145e04a09);
+        
+
+        marker_f7d60825ebd04c52828cbee429c311b8.bindPopup(popup_9e2c14d5aba447e18318aa64a63f6622)
+        ;
+
+        
+    
+    
+            marker_f7d60825ebd04c52828cbee429c311b8.bindTooltip(
+                `<div>
+                     TBA Times Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cba1b5cff7bc4e31aa8fcf25af31b43d = L.marker(
+                [40.7082110697503, -74.0141777374344],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_238573e9f1f4438ea672e2a189d60e92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cba1b5cff7bc4e31aa8fcf25af31b43d.setIcon(icon_238573e9f1f4438ea672e2a189d60e92);
+        
+    
+        var popup_f81767da2a3b4832b28de8cff588d0bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_534dee9210154395bda60abe8d08ef71 = $(`<div id="html_534dee9210154395bda60abe8d08ef71" style="width: 100.0%; height: 100.0%;">8.1/10</div>`)[0];
+            popup_f81767da2a3b4832b28de8cff588d0bc.setContent(html_534dee9210154395bda60abe8d08ef71);
+        
+
+        marker_cba1b5cff7bc4e31aa8fcf25af31b43d.bindPopup(popup_f81767da2a3b4832b28de8cff588d0bc)
+        ;
+
+        
+    
+    
+            marker_cba1b5cff7bc4e31aa8fcf25af31b43d.bindTooltip(
+                `<div>
+                     Holiday Inn Manhattan Financial District, an IHG Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff2211442ac846449ef6840a51de5875 = L.marker(
+                [40.7039428170782, -74.012379348278],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_efc0438bf537439e8322ba779732f465 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ff2211442ac846449ef6840a51de5875.setIcon(icon_efc0438bf537439e8322ba779732f465);
+        
+    
+        var popup_12cf4e5ddcd3495ba6fe736ffa6cde59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68ff10f831624e1abc984ce577066b31 = $(`<div id="html_68ff10f831624e1abc984ce577066b31" style="width: 100.0%; height: 100.0%;">7.7/10</div>`)[0];
+            popup_12cf4e5ddcd3495ba6fe736ffa6cde59.setContent(html_68ff10f831624e1abc984ce577066b31);
+        
+
+        marker_ff2211442ac846449ef6840a51de5875.bindPopup(popup_12cf4e5ddcd3495ba6fe736ffa6cde59)
+        ;
+
+        
+    
+    
+            marker_ff2211442ac846449ef6840a51de5875.bindTooltip(
+                `<div>
+                     DoubleTree by Hilton New York Downtown
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1576fa1136e4e228b6964f8278316b0 = L.marker(
+                [40.7596825, -73.9863504],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_f8d8392f15144f06821473dc52bec7f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e1576fa1136e4e228b6964f8278316b0.setIcon(icon_f8d8392f15144f06821473dc52bec7f4);
+        
+    
+        var popup_75ec89086148412ea2dd27219bf22872 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39abfb1dfc1a4cee85c926ec5bef0ce5 = $(`<div id="html_39abfb1dfc1a4cee85c926ec5bef0ce5" style="width: 100.0%; height: 100.0%;">7.7/10</div>`)[0];
+            popup_75ec89086148412ea2dd27219bf22872.setContent(html_39abfb1dfc1a4cee85c926ec5bef0ce5);
+        
+
+        marker_e1576fa1136e4e228b6964f8278316b0.bindPopup(popup_75ec89086148412ea2dd27219bf22872)
+        ;
+
+        
+    
+    
+            marker_e1576fa1136e4e228b6964f8278316b0.bindTooltip(
+                `<div>
+                     Hotel Edison Times Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0601e3a3f6048639ce3cfbec6fa7afe = L.marker(
+                [40.761682, -73.987951],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_a097aab9c8e5459faa0d0e21659fe653 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f0601e3a3f6048639ce3cfbec6fa7afe.setIcon(icon_a097aab9c8e5459faa0d0e21659fe653);
+        
+    
+        var popup_bb83a75c0b73417d9af1dd66e125f251 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91989f55127a42439234d71b18ff2d5b = $(`<div id="html_91989f55127a42439234d71b18ff2d5b" style="width: 100.0%; height: 100.0%;">8.3/10</div>`)[0];
+            popup_bb83a75c0b73417d9af1dd66e125f251.setContent(html_91989f55127a42439234d71b18ff2d5b);
+        
+
+        marker_f0601e3a3f6048639ce3cfbec6fa7afe.bindPopup(popup_bb83a75c0b73417d9af1dd66e125f251)
+        ;
+
+        
+    
+    
+            marker_f0601e3a3f6048639ce3cfbec6fa7afe.bindTooltip(
+                `<div>
+                     The Belvedere Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fbe21d761e4483b97a2a103ac180427 = L.marker(
+                [40.7468737613227, -73.9921530466964],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_cd7de09c411b419e877ae19f17047055 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1fbe21d761e4483b97a2a103ac180427.setIcon(icon_cd7de09c411b419e877ae19f17047055);
+        
+    
+        var popup_bfc7ef0eb6bf450cae93d8c9bfdcc2fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30520bf52e384ff185b11c02314dfc86 = $(`<div id="html_30520bf52e384ff185b11c02314dfc86" style="width: 100.0%; height: 100.0%;">8.0/10</div>`)[0];
+            popup_bfc7ef0eb6bf450cae93d8c9bfdcc2fd.setContent(html_30520bf52e384ff185b11c02314dfc86);
+        
+
+        marker_1fbe21d761e4483b97a2a103ac180427.bindPopup(popup_bfc7ef0eb6bf450cae93d8c9bfdcc2fd)
+        ;
+
+        
+    
+    
+            marker_1fbe21d761e4483b97a2a103ac180427.bindTooltip(
+                `<div>
+                     Hotel Hayden New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bd6f5b7d27c4fa68b9c8795712f92a1 = L.marker(
+                [40.752419, -73.989375],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_f785112e5c264bda992ff0d787df1761 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9bd6f5b7d27c4fa68b9c8795712f92a1.setIcon(icon_f785112e5c264bda992ff0d787df1761);
+        
+    
+        var popup_d9fadcd4cd3f431e97a3c3e85a069218 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daa1f2918c84429ba246db7f870e0278 = $(`<div id="html_daa1f2918c84429ba246db7f870e0278" style="width: 100.0%; height: 100.0%;">8.2/10</div>`)[0];
+            popup_d9fadcd4cd3f431e97a3c3e85a069218.setContent(html_daa1f2918c84429ba246db7f870e0278);
+        
+
+        marker_9bd6f5b7d27c4fa68b9c8795712f92a1.bindPopup(popup_d9fadcd4cd3f431e97a3c3e85a069218)
+        ;
+
+        
+    
+    
+            marker_9bd6f5b7d27c4fa68b9c8795712f92a1.bindTooltip(
+                `<div>
+                     MOXY NYC Times Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58b8f01ad8254fbc930da72386459708 = L.marker(
+                [40.721723, -73.987496],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_eaddbc855d4d4a2fbe2934178d865449 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_58b8f01ad8254fbc930da72386459708.setIcon(icon_eaddbc855d4d4a2fbe2934178d865449);
+        
+    
+        var popup_508e30d1b19d47ec952aefa2193a4663 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_560ce005787d4f928bff693e52585ce7 = $(`<div id="html_560ce005787d4f928bff693e52585ce7" style="width: 100.0%; height: 100.0%;">8.1/10</div>`)[0];
+            popup_508e30d1b19d47ec952aefa2193a4663.setContent(html_560ce005787d4f928bff693e52585ce7);
+        
+
+        marker_58b8f01ad8254fbc930da72386459708.bindPopup(popup_508e30d1b19d47ec952aefa2193a4663)
+        ;
+
+        
+    
+    
+            marker_58b8f01ad8254fbc930da72386459708.bindTooltip(
+                `<div>
+                     Hotel Indigo Lower East Side, an IHG Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ab28f9db9624a5588e4e7b55721a726 = L.marker(
+                [40.7398336, -73.9842543],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_1439c0ea5885488abe7cd45ae5e3c9e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9ab28f9db9624a5588e4e7b55721a726.setIcon(icon_1439c0ea5885488abe7cd45ae5e3c9e0);
+        
+    
+        var popup_3ce439d4b95b454b853f2ee5806c9f2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a308ecbc6d094ef5bbafc9f1b8ce6d5a = $(`<div id="html_a308ecbc6d094ef5bbafc9f1b8ce6d5a" style="width: 100.0%; height: 100.0%;">8.5/10</div>`)[0];
+            popup_3ce439d4b95b454b853f2ee5806c9f2f.setContent(html_a308ecbc6d094ef5bbafc9f1b8ce6d5a);
+        
+
+        marker_9ab28f9db9624a5588e4e7b55721a726.bindPopup(popup_3ce439d4b95b454b853f2ee5806c9f2f)
+        ;
+
+        
+    
+    
+            marker_9ab28f9db9624a5588e4e7b55721a726.bindTooltip(
+                `<div>
+                     Freehand New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_312a4745b1274ce5a8f0658268761d4e = L.marker(
+                [40.7573147577722, -73.9837320148945],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_c0c92774a7f84cd6b9762f640ffb613c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_312a4745b1274ce5a8f0658268761d4e.setIcon(icon_c0c92774a7f84cd6b9762f640ffb613c);
+        
+    
+        var popup_2943a814475d48e7a3239e0d426469a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb9961b04f8b4f369ac3989ee502c9ed = $(`<div id="html_eb9961b04f8b4f369ac3989ee502c9ed" style="width: 100.0%; height: 100.0%;">8.5/10</div>`)[0];
+            popup_2943a814475d48e7a3239e0d426469a0.setContent(html_eb9961b04f8b4f369ac3989ee502c9ed);
+        
+
+        marker_312a4745b1274ce5a8f0658268761d4e.bindPopup(popup_2943a814475d48e7a3239e0d426469a0)
+        ;
+
+        
+    
+    
+            marker_312a4745b1274ce5a8f0658268761d4e.bindTooltip(
+                `<div>
+                     Room Mate Grace Boutique Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57e3a84baa374ea78d88fdb1f2607748 = L.marker(
+                [40.7565152695353, -73.9924827218056],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_9e6a953ef1a049b784d9678f2bc99b91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_57e3a84baa374ea78d88fdb1f2607748.setIcon(icon_9e6a953ef1a049b784d9678f2bc99b91);
+        
+    
+        var popup_23f7e46e9a3b4f4c92a71227242e1dd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0ae04a96b484f0e90e4f3c36d80d8a7 = $(`<div id="html_b0ae04a96b484f0e90e4f3c36d80d8a7" style="width: 100.0%; height: 100.0%;">7.7/10</div>`)[0];
+            popup_23f7e46e9a3b4f4c92a71227242e1dd4.setContent(html_b0ae04a96b484f0e90e4f3c36d80d8a7);
+        
+
+        marker_57e3a84baa374ea78d88fdb1f2607748.bindPopup(popup_23f7e46e9a3b4f4c92a71227242e1dd4)
+        ;
+
+        
+    
+    
+            marker_57e3a84baa374ea78d88fdb1f2607748.bindTooltip(
+                `<div>
+                     Fairfield Inn & Suites By Marriott New York Manhattan/Times Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5db5c3bb5af94adf9fe776df78d0e3d4 = L.marker(
+                [40.7613079915298, -73.9866274595261],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_c6363b3db84c420eb3cb8cb70884a8c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5db5c3bb5af94adf9fe776df78d0e3d4.setIcon(icon_c6363b3db84c420eb3cb8cb70884a8c4);
+        
+    
+        var popup_fd8a5e2a550b41a49310174d09170c77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_816741895c8a4b9c878bafbdd69337b3 = $(`<div id="html_816741895c8a4b9c878bafbdd69337b3" style="width: 100.0%; height: 100.0%;">8.3/10</div>`)[0];
+            popup_fd8a5e2a550b41a49310174d09170c77.setContent(html_816741895c8a4b9c878bafbdd69337b3);
+        
+
+        marker_5db5c3bb5af94adf9fe776df78d0e3d4.bindPopup(popup_fd8a5e2a550b41a49310174d09170c77)
+        ;
+
+        
+    
+    
+            marker_5db5c3bb5af94adf9fe776df78d0e3d4.bindTooltip(
+                `<div>
+                     Hilton Garden Inn Times Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb5efa60c0e04b68baece193b7d00f77 = L.marker(
+                [40.76280018648, -73.9836555719375],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_c965a5f34083433594c9c5a045909c99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cb5efa60c0e04b68baece193b7d00f77.setIcon(icon_c965a5f34083433594c9c5a045909c99);
+        
+    
+        var popup_f34047a0aa284dfc95387732cd74a87d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b65778e15b6a456b9e7fafd04a34fc01 = $(`<div id="html_b65778e15b6a456b9e7fafd04a34fc01" style="width: 100.0%; height: 100.0%;">8.5/10</div>`)[0];
+            popup_f34047a0aa284dfc95387732cd74a87d.setContent(html_b65778e15b6a456b9e7fafd04a34fc01);
+        
+
+        marker_cb5efa60c0e04b68baece193b7d00f77.bindPopup(popup_f34047a0aa284dfc95387732cd74a87d)
+        ;
+
+        
+    
+    
+            marker_cb5efa60c0e04b68baece193b7d00f77.bindTooltip(
+                `<div>
+                     M Social Hotel Times Square New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b6c28ffbc2d4aa4a0e428c6012eb66b = L.marker(
+                [40.75374, -73.9937379],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_5902c1abae19466799a4475a268628f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1b6c28ffbc2d4aa4a0e428c6012eb66b.setIcon(icon_5902c1abae19466799a4475a268628f8);
+        
+    
+        var popup_5494637bb2e6492593fd13ddbf0f8550 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_463b93f42b9344b59376c4bf45e90562 = $(`<div id="html_463b93f42b9344b59376c4bf45e90562" style="width: 100.0%; height: 100.0%;">8.6/10</div>`)[0];
+            popup_5494637bb2e6492593fd13ddbf0f8550.setContent(html_463b93f42b9344b59376c4bf45e90562);
+        
+
+        marker_1b6c28ffbc2d4aa4a0e428c6012eb66b.bindPopup(popup_5494637bb2e6492593fd13ddbf0f8550)
+        ;
+
+        
+    
+    
+            marker_1b6c28ffbc2d4aa4a0e428c6012eb66b.bindTooltip(
+                `<div>
+                     Crowne Plaza HY36 Midtown Manhattan, an IHG Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad1bd8e72e53403a82ebf48fae59b114 = L.marker(
+                [40.7525430825081, -73.9966803789138],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_555b70ddc81b46e799609c671d4763f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ad1bd8e72e53403a82ebf48fae59b114.setIcon(icon_555b70ddc81b46e799609c671d4763f6);
+        
+    
+        var popup_efbe117cdd274a348ff2c42f814a0ddf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f014284c8c14a0ebb9761ec7e798f05 = $(`<div id="html_4f014284c8c14a0ebb9761ec7e798f05" style="width: 100.0%; height: 100.0%;">8.1/10</div>`)[0];
+            popup_efbe117cdd274a348ff2c42f814a0ddf.setContent(html_4f014284c8c14a0ebb9761ec7e798f05);
+        
+
+        marker_ad1bd8e72e53403a82ebf48fae59b114.bindPopup(popup_efbe117cdd274a348ff2c42f814a0ddf)
+        ;
+
+        
+    
+    
+            marker_ad1bd8e72e53403a82ebf48fae59b114.bindTooltip(
+                `<div>
+                     Fairfield Inn & Suites by Marriott New York Midtown Manhattan/Penn Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66e05fb7baed48cc8f70d4f08eb9d4bc = L.marker(
+                [40.751113, -73.985115],
+                {}
+            ).addTo(map_aa6156db3302442ba67cb346f3d24f90);
+        
+    
+            var icon_4f098a37810146daac24122aa8fd91ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_66e05fb7baed48cc8f70d4f08eb9d4bc.setIcon(icon_4f098a37810146daac24122aa8fd91ad);
+        
+    
+        var popup_28d086a3ad714add85e9a8030c8b9b23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1b1244b16bc42fe88125aaf0cafddaf = $(`<div id="html_b1b1244b16bc42fe88125aaf0cafddaf" style="width: 100.0%; height: 100.0%;">8.1/10</div>`)[0];
+            popup_28d086a3ad714add85e9a8030c8b9b23.setContent(html_b1b1244b16bc42fe88125aaf0cafddaf);
+        
+
+        marker_66e05fb7baed48cc8f70d4f08eb9d4bc.bindPopup(popup_28d086a3ad714add85e9a8030c8b9b23)
+        ;
+
+        
+    
+    
+            marker_66e05fb7baed48cc8f70d4f08eb9d4bc.bindTooltip(
+                `<div>
+                     Embassy Suites By Hilton New York Manhattan Times Square
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
