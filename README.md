@@ -50,8 +50,9 @@ Here's a breakdown of the solutions we provide.
 
 ## COVID-19 Restrictions
 
-* 
-*
+* How has COVID-19 affected international travel from the United States?
+* What are some of the travel restrictions that have been implemented due to COVID-19?
+![United States International Travel Restrictions](resources/exploration_cleanup_notebooks/covid_restrictions/covidrestrictionsmap.png)
 
 <br>
 
