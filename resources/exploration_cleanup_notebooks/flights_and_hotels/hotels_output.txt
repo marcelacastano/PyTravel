@@ -13,23 +13,17 @@ Price: $3083.10
 https://www.booking.com/hotel/us/astor-on-central-park.html
 Only 2 left at this price on Booking.com
  
-La Quinta by Wyndham New York City Central Park
-7.3/10.0)
-31 West 71st Street NY 10023
-Price: $3699.94
-https://www.booking.com/hotel/us/la-quinta-new-york-city-central-park.html
-Only 2 left at this price on Booking.com
- 
 AKA Central Park
 8.6/10.0)
 42 West 58th Street NY 10019
 Price: $4816.18
 https://www.booking.com/hotel/us/korman-kommunities-central-park.html
+Only 4 left at this price on Booking.com
  
 Sonder l Chambers
 8.8/10.0)
 15 West 56th Street NY 10019
-Price: $5091.46
+Price: $5099.72
 https://www.booking.com/hotel/us/chambers.html
 Only 1 left at this price on Booking.com
  
@@ -45,6 +39,12 @@ Shoreham Hotel
 Price: $5437.38
 https://www.booking.com/hotel/us/shoreham.html
 Only 4 left at this price on Booking.com
+ 
+Carnegie Hotel
+8.9/10.0)
+160 West 56th Street NY 10019
+Price: $6367.14
+https://www.booking.com/hotel/us/carnegie-hotel-new-york.html
  
 The Manhattan Club
 8.3/10.0)
@@ -124,7 +124,6 @@ https://www.booking.com/hotel/us/the-ritz-carlton-new-york-central-park.html
 The St. Regis New York
 8.2/10.0)
 Two East 55th Street at Fifth Avenue NY 10022
-Price: $21687.41
+Price: $23181.45
 https://www.booking.com/hotel/us/st-regis-new-york.html
-Only 1 left at this price on Booking.com
  

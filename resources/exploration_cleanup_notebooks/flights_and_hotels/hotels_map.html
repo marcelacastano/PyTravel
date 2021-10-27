@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f60551a7995a407b8bb36a0a78c6f4de {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f60551a7995a407b8bb36a0a78c6f4de" ></div>
+        
+</body>
+<script>    
+    
+            var map_f60551a7995a407b8bb36a0a78c6f4de = L.map(
+                "map_f60551a7995a407b8bb36a0a78c6f4de",
+                {
+                    center: [40.7708451, -73.9806124],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61269acdc8e04a709aa1d68ecc83de97 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var marker_3b53ceb05bad45edb3d2c7a30ad7551e = L.marker(
+                [40.7708451, -73.9806124],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_605beaa4be234cd1b27d4330301a5a9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3b53ceb05bad45edb3d2c7a30ad7551e.setIcon(icon_605beaa4be234cd1b27d4330301a5a9e);
+        
+    
+        var popup_3ea52b09c8e24c9bb00976fe9e228813 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec44f317846f4daa91e5b6414109628a = $(`<div id="html_ec44f317846f4daa91e5b6414109628a" style="width: 100.0%; height: 100.0%;">7.3/10</div>`)[0];
+            popup_3ea52b09c8e24c9bb00976fe9e228813.setContent(html_ec44f317846f4daa91e5b6414109628a);
+        
+
+        marker_3b53ceb05bad45edb3d2c7a30ad7551e.bindPopup(popup_3ea52b09c8e24c9bb00976fe9e228813)
+        ;
+
+        
+    
+    
+            marker_3b53ceb05bad45edb3d2c7a30ad7551e.bindTooltip(
+                `<div>
+                     West Side YMCA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0238004a136c46f1b53dd5930453945f = L.marker(
+                [40.7985269, -73.9600439],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_0bf18ac3f5d24fd484b317824727499d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0238004a136c46f1b53dd5930453945f.setIcon(icon_0bf18ac3f5d24fd484b317824727499d);
+        
+    
+        var popup_41969b135675454b8eeb373ef78844ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89b71e946ff54d1cb9de8cbed02ee541 = $(`<div id="html_89b71e946ff54d1cb9de8cbed02ee541" style="width: 100.0%; height: 100.0%;">6.5/10</div>`)[0];
+            popup_41969b135675454b8eeb373ef78844ee.setContent(html_89b71e946ff54d1cb9de8cbed02ee541);
+        
+
+        marker_0238004a136c46f1b53dd5930453945f.bindPopup(popup_41969b135675454b8eeb373ef78844ee)
+        ;
+
+        
+    
+    
+            marker_0238004a136c46f1b53dd5930453945f.bindTooltip(
+                `<div>
+                     Park West Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_321e1d6528204132ae2ce9f7c35a0ed2 = L.marker(
+                [40.7644030651776, -73.9756575599313],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_fdde83fbde674d4c8860fe196943a391 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_321e1d6528204132ae2ce9f7c35a0ed2.setIcon(icon_fdde83fbde674d4c8860fe196943a391);
+        
+    
+        var popup_6b42f0fc428e48eb8df58c0136615d14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f2e11c784514fd0a2c7fddaf9d5b546 = $(`<div id="html_0f2e11c784514fd0a2c7fddaf9d5b546" style="width: 100.0%; height: 100.0%;">8.6/10</div>`)[0];
+            popup_6b42f0fc428e48eb8df58c0136615d14.setContent(html_0f2e11c784514fd0a2c7fddaf9d5b546);
+        
+
+        marker_321e1d6528204132ae2ce9f7c35a0ed2.bindPopup(popup_6b42f0fc428e48eb8df58c0136615d14)
+        ;
+
+        
+    
+    
+            marker_321e1d6528204132ae2ce9f7c35a0ed2.bindTooltip(
+                `<div>
+                     AKA Central Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c126ca7617843b4ad6f23ef1c0f0c6b = L.marker(
+                [40.7628657041427, -73.9755992218852],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_dde8d716f09547fdbdeacbeb10a1cb9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2c126ca7617843b4ad6f23ef1c0f0c6b.setIcon(icon_dde8d716f09547fdbdeacbeb10a1cb9e);
+        
+    
+        var popup_b79aa114086b461d967570ee9ff4be75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91277b4fe38e44f4bc429400397cfbba = $(`<div id="html_91277b4fe38e44f4bc429400397cfbba" style="width: 100.0%; height: 100.0%;">8.8/10</div>`)[0];
+            popup_b79aa114086b461d967570ee9ff4be75.setContent(html_91277b4fe38e44f4bc429400397cfbba);
+        
+
+        marker_2c126ca7617843b4ad6f23ef1c0f0c6b.bindPopup(popup_b79aa114086b461d967570ee9ff4be75)
+        ;
+
+        
+    
+    
+            marker_2c126ca7617843b4ad6f23ef1c0f0c6b.bindTooltip(
+                `<div>
+                     Sonder l Chambers
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_050eec8fb6654f7b90926b3c185d4f79 = L.marker(
+                [40.7645879320974, -73.980937153101],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_fcf3e87e8533419b9a88f9a5c4b883ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_050eec8fb6654f7b90926b3c185d4f79.setIcon(icon_fcf3e87e8533419b9a88f9a5c4b883ec);
+        
+    
+        var popup_a59e670c03fc40b2b64c51d4e27c616d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23e10ddbbd37427b95e55a877f5e5579 = $(`<div id="html_23e10ddbbd37427b95e55a877f5e5579" style="width: 100.0%; height: 100.0%;">7.8/10</div>`)[0];
+            popup_a59e670c03fc40b2b64c51d4e27c616d.setContent(html_23e10ddbbd37427b95e55a877f5e5579);
+        
+
+        marker_050eec8fb6654f7b90926b3c185d4f79.bindPopup(popup_a59e670c03fc40b2b64c51d4e27c616d)
+        ;
+
+        
+    
+    
+            marker_050eec8fb6654f7b90926b3c185d4f79.bindTooltip(
+                `<div>
+                     Park Central
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3dad090eaa7e4eedafbbac6b76188a01 = L.marker(
+                [40.7624213001252, -73.9763680100441],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_26149cd1d5114d58be50ec2ffaab1a21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3dad090eaa7e4eedafbbac6b76188a01.setIcon(icon_26149cd1d5114d58be50ec2ffaab1a21);
+        
+    
+        var popup_1698a549e4fa4a02b9cc12656b713aec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0b766449c644a44b7be90508d3645ba = $(`<div id="html_e0b766449c644a44b7be90508d3645ba" style="width: 100.0%; height: 100.0%;">7.8/10</div>`)[0];
+            popup_1698a549e4fa4a02b9cc12656b713aec.setContent(html_e0b766449c644a44b7be90508d3645ba);
+        
+
+        marker_3dad090eaa7e4eedafbbac6b76188a01.bindPopup(popup_1698a549e4fa4a02b9cc12656b713aec)
+        ;
+
+        
+    
+    
+            marker_3dad090eaa7e4eedafbbac6b76188a01.bindTooltip(
+                `<div>
+                     Shoreham Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4d9de750d7d4aeb9fbfaf6d68d807fc = L.marker(
+                [40.7645825694967, -73.9800860165155],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_fb36ecb3743a4a0b9dbababcfe181d8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f4d9de750d7d4aeb9fbfaf6d68d807fc.setIcon(icon_fb36ecb3743a4a0b9dbababcfe181d8b);
+        
+    
+        var popup_75cad54c49644bdf9b5a6c7b9ac2fce1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17fe1cf563c44a6ea2113749ed1a1bc4 = $(`<div id="html_17fe1cf563c44a6ea2113749ed1a1bc4" style="width: 100.0%; height: 100.0%;">8.9/10</div>`)[0];
+            popup_75cad54c49644bdf9b5a6c7b9ac2fce1.setContent(html_17fe1cf563c44a6ea2113749ed1a1bc4);
+        
+
+        marker_f4d9de750d7d4aeb9fbfaf6d68d807fc.bindPopup(popup_75cad54c49644bdf9b5a6c7b9ac2fce1)
+        ;
+
+        
+    
+    
+            marker_f4d9de750d7d4aeb9fbfaf6d68d807fc.bindTooltip(
+                `<div>
+                     Carnegie Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80e342f20e164ad69979f33fb2a7c78d = L.marker(
+                [40.764991183979, -73.9811463654041],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_b3e5534018ef405798c4d6375cf06ac5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_80e342f20e164ad69979f33fb2a7c78d.setIcon(icon_b3e5534018ef405798c4d6375cf06ac5);
+        
+    
+        var popup_2142841c2a17466c8dff8c617a0284ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52080bb175054645aaf1d3e109f56594 = $(`<div id="html_52080bb175054645aaf1d3e109f56594" style="width: 100.0%; height: 100.0%;">8.3/10</div>`)[0];
+            popup_2142841c2a17466c8dff8c617a0284ca.setContent(html_52080bb175054645aaf1d3e109f56594);
+        
+
+        marker_80e342f20e164ad69979f33fb2a7c78d.bindPopup(popup_2142841c2a17466c8dff8c617a0284ca)
+        ;
+
+        
+    
+    
+            marker_80e342f20e164ad69979f33fb2a7c78d.bindTooltip(
+                `<div>
+                     The Manhattan Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3af903a4c5714ca58767f069b68729e9 = L.marker(
+                [40.7645992616067, -73.9808902914868],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_52eb711286f04cf88ab7ed4c27ab335c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3af903a4c5714ca58767f069b68729e9.setIcon(icon_52eb711286f04cf88ab7ed4c27ab335c);
+        
+    
+        var popup_bd03aa50464142b8a5c4b250482af951 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf4bdc986fc745c0b56d49670c73b09d = $(`<div id="html_cf4bdc986fc745c0b56d49670c73b09d" style="width: 100.0%; height: 100.0%;">8.1/10</div>`)[0];
+            popup_bd03aa50464142b8a5c4b250482af951.setContent(html_cf4bdc986fc745c0b56d49670c73b09d);
+        
+
+        marker_3af903a4c5714ca58767f069b68729e9.bindPopup(popup_bd03aa50464142b8a5c4b250482af951)
+        ;
+
+        
+    
+    
+            marker_3af903a4c5714ca58767f069b68729e9.bindTooltip(
+                `<div>
+                     WestHouse Hotel New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ad4608a835e4dfcb50638270cc1b752 = L.marker(
+                [40.764494, -73.978447],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_e13fc05aec21432d9607ebbc30ed4e37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9ad4608a835e4dfcb50638270cc1b752.setIcon(icon_e13fc05aec21432d9607ebbc30ed4e37);
+        
+    
+        var popup_fa424f60b0f94ddbb34eb5d7d0b5bffd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_752ce292d61648488b548bf044b87348 = $(`<div id="html_752ce292d61648488b548bf044b87348" style="width: 100.0%; height: 100.0%;">7.4/10</div>`)[0];
+            popup_fa424f60b0f94ddbb34eb5d7d0b5bffd.setContent(html_752ce292d61648488b548bf044b87348);
+        
+
+        marker_9ad4608a835e4dfcb50638270cc1b752.bindPopup(popup_fa424f60b0f94ddbb34eb5d7d0b5bffd)
+        ;
+
+        
+    
+    
+            marker_9ad4608a835e4dfcb50638270cc1b752.bindTooltip(
+                `<div>
+                     Le Meridien New York, Central Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bc07dfbfec54a7e93da89f659d86081 = L.marker(
+                [40.7645046404719, -73.9779780060053],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_fb37886672424d1794012d07563e988f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0bc07dfbfec54a7e93da89f659d86081.setIcon(icon_fb37886672424d1794012d07563e988f);
+        
+    
+        var popup_cfdb34858c114a9db8dce363d0f84d37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96f960c1827b4290b66a94e2b5754dc4 = $(`<div id="html_96f960c1827b4290b66a94e2b5754dc4" style="width: 100.0%; height: 100.0%;">8.4/10</div>`)[0];
+            popup_cfdb34858c114a9db8dce363d0f84d37.setContent(html_96f960c1827b4290b66a94e2b5754dc4);
+        
+
+        marker_0bc07dfbfec54a7e93da89f659d86081.bindPopup(popup_cfdb34858c114a9db8dce363d0f84d37)
+        ;
+
+        
+    
+    
+            marker_0bc07dfbfec54a7e93da89f659d86081.bindTooltip(
+                `<div>
+                     West 57th Street by Hilton Club
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62982ec100ba4a61812561e1cbbda437 = L.marker(
+                [40.7650084516372, -73.9753836393356],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_24025eb2e1644a1fb617227a53b7fb57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_62982ec100ba4a61812561e1cbbda437.setIcon(icon_24025eb2e1644a1fb617227a53b7fb57);
+        
+    
+        var popup_d9b0951e37a84618adb8b37077523050 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c832ecece0c436889e7ea56a876e312 = $(`<div id="html_1c832ecece0c436889e7ea56a876e312" style="width: 100.0%; height: 100.0%;">7.7/10</div>`)[0];
+            popup_d9b0951e37a84618adb8b37077523050.setContent(html_1c832ecece0c436889e7ea56a876e312);
+        
+
+        marker_62982ec100ba4a61812561e1cbbda437.bindPopup(popup_d9b0951e37a84618adb8b37077523050)
+        ;
+
+        
+    
+    
+            marker_62982ec100ba4a61812561e1cbbda437.bindTooltip(
+                `<div>
+                     Park Lane New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_951f16b3eeb8414da012a6b8dd39d59b = L.marker(
+                [40.7641694414114, -73.9786009490489],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_1dcf7da135064ae6b06205c0eae4b7a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_951f16b3eeb8414da012a6b8dd39d59b.setIcon(icon_1dcf7da135064ae6b06205c0eae4b7a6);
+        
+    
+        var popup_a552f7471f974f71b1b2f9e4f162b2f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a281c71ea63b45508bf7b981c9b8291c = $(`<div id="html_a281c71ea63b45508bf7b981c9b8291c" style="width: 100.0%; height: 100.0%;">8.0/10</div>`)[0];
+            popup_a552f7471f974f71b1b2f9e4f162b2f9.setContent(html_a281c71ea63b45508bf7b981c9b8291c);
+        
+
+        marker_951f16b3eeb8414da012a6b8dd39d59b.bindPopup(popup_a552f7471f974f71b1b2f9e4f162b2f9)
+        ;
+
+        
+    
+    
+            marker_951f16b3eeb8414da012a6b8dd39d59b.bindTooltip(
+                `<div>
+                     Thompson Central Park - New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3afe45aa6d7c40f9b0da95c04cf4c377 = L.marker(
+                [40.7648321, -73.9768231],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_d00cd8f1b77d4290808623462164b741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3afe45aa6d7c40f9b0da95c04cf4c377.setIcon(icon_d00cd8f1b77d4290808623462164b741);
+        
+    
+        var popup_1685f1853ea649ad8469f40ab20395b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b353376ccda46729dcad478357bda6f = $(`<div id="html_8b353376ccda46729dcad478357bda6f" style="width: 100.0%; height: 100.0%;">8.7/10</div>`)[0];
+            popup_1685f1853ea649ad8469f40ab20395b1.setContent(html_8b353376ccda46729dcad478357bda6f);
+        
+
+        marker_3afe45aa6d7c40f9b0da95c04cf4c377.bindPopup(popup_1685f1853ea649ad8469f40ab20395b1)
+        ;
+
+        
+    
+    
+            marker_3afe45aa6d7c40f9b0da95c04cf4c377.bindTooltip(
+                `<div>
+                     1 Hotel Central Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0075b179a036472594268fefb4025a1c = L.marker(
+                [40.7644558577474, -73.968969630619],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_72ede1f74dc747f2a43f7d99a2a1aa45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0075b179a036472594268fefb4025a1c.setIcon(icon_72ede1f74dc747f2a43f7d99a2a1aa45);
+        
+    
+        var popup_ab23753cce814fed9d3b9845b666eb2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d96fb43ac42e4b4ab0363d2a3d66a4b5 = $(`<div id="html_d96fb43ac42e4b4ab0363d2a3d66a4b5" style="width: 100.0%; height: 100.0%;">8.7/10</div>`)[0];
+            popup_ab23753cce814fed9d3b9845b666eb2a.setContent(html_d96fb43ac42e4b4ab0363d2a3d66a4b5);
+        
+
+        marker_0075b179a036472594268fefb4025a1c.bindPopup(popup_ab23753cce814fed9d3b9845b666eb2a)
+        ;
+
+        
+    
+    
+            marker_0075b179a036472594268fefb4025a1c.bindTooltip(
+                `<div>
+                     Loews Regency New York Hotel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15deee2179d1466e8e6350782518aea5 = L.marker(
+                [40.7664071170503, -73.9783729612827],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_84ea3315e4014b8ea5834e64dc46aa69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_15deee2179d1466e8e6350782518aea5.setIcon(icon_84ea3315e4014b8ea5834e64dc46aa69);
+        
+    
+        var popup_fd2a91405a654ac78dfbfd20375ae776 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_598e322d250d472c82008a33a58bf2b3 = $(`<div id="html_598e322d250d472c82008a33a58bf2b3" style="width: 100.0%; height: 100.0%;">8.3/10</div>`)[0];
+            popup_fd2a91405a654ac78dfbfd20375ae776.setContent(html_598e322d250d472c82008a33a58bf2b3);
+        
+
+        marker_15deee2179d1466e8e6350782518aea5.bindPopup(popup_fd2a91405a654ac78dfbfd20375ae776)
+        ;
+
+        
+    
+    
+            marker_15deee2179d1466e8e6350782518aea5.bindTooltip(
+                `<div>
+                     JW Marriott Essex House New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ecfa1d69b7f4452cac2367d23b534144 = L.marker(
+                [40.769089587591, -73.9814112335443],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_949e376c070d48fd8bf7678b41bb3864 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ecfa1d69b7f4452cac2367d23b534144.setIcon(icon_949e376c070d48fd8bf7678b41bb3864);
+        
+    
+        var popup_c7b14e5d10b4443297e713b7aca4c416 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b835c53fe2664d10b0e77b73eed0c8ee = $(`<div id="html_b835c53fe2664d10b0e77b73eed0c8ee" style="width: 100.0%; height: 100.0%;">9.0/10</div>`)[0];
+            popup_c7b14e5d10b4443297e713b7aca4c416.setContent(html_b835c53fe2664d10b0e77b73eed0c8ee);
+        
+
+        marker_ecfa1d69b7f4452cac2367d23b534144.bindPopup(popup_c7b14e5d10b4443297e713b7aca4c416)
+        ;
+
+        
+    
+    
+            marker_ecfa1d69b7f4452cac2367d23b534144.bindTooltip(
+                `<div>
+                     Trump International New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28bcefd529e84bff8e4a4df7b334ce90 = L.marker(
+                [40.7651440533852, -73.9713630080223],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_d5d31077c52d4f54a83566e3410088fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_28bcefd529e84bff8e4a4df7b334ce90.setIcon(icon_d5d31077c52d4f54a83566e3410088fe);
+        
+    
+        var popup_ae79d32996894360b0a565472045ab0c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34e5c9826fa143ba9998198e1120d640 = $(`<div id="html_34e5c9826fa143ba9998198e1120d640" style="width: 100.0%; height: 100.0%;">8.9/10</div>`)[0];
+            popup_ae79d32996894360b0a565472045ab0c.setContent(html_34e5c9826fa143ba9998198e1120d640);
+        
+
+        marker_28bcefd529e84bff8e4a4df7b334ce90.bindPopup(popup_ae79d32996894360b0a565472045ab0c)
+        ;
+
+        
+    
+    
+            marker_28bcefd529e84bff8e4a4df7b334ce90.bindTooltip(
+                `<div>
+                     The Pierre, A Taj Hotel, New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23ed834211b0476088a13d3c7b7e7820 = L.marker(
+                [40.7653152057583, -73.9760152995587],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_b8e4d74d2f8b4b019bea88e5953fc852 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_23ed834211b0476088a13d3c7b7e7820.setIcon(icon_b8e4d74d2f8b4b019bea88e5953fc852);
+        
+    
+        var popup_69ea0ca4264e49c797550f41fa2d0845 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf93e95546ef45e7b2e13ed2a9939d2e = $(`<div id="html_cf93e95546ef45e7b2e13ed2a9939d2e" style="width: 100.0%; height: 100.0%;">8.5/10</div>`)[0];
+            popup_69ea0ca4264e49c797550f41fa2d0845.setContent(html_cf93e95546ef45e7b2e13ed2a9939d2e);
+        
+
+        marker_23ed834211b0476088a13d3c7b7e7820.bindPopup(popup_69ea0ca4264e49c797550f41fa2d0845)
+        ;
+
+        
+    
+    
+            marker_23ed834211b0476088a13d3c7b7e7820.bindTooltip(
+                `<div>
+                     The Ritz-Carlton New York, Central Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_467ef43e6ced4dbb865da7e659b3b0e8 = L.marker(
+                [40.7614085557548, -73.9743939042092],
+                {}
+            ).addTo(map_f60551a7995a407b8bb36a0a78c6f4de);
+        
+    
+            var icon_98e7b86fec984ccbb8b103666f82080a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bed", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_467ef43e6ced4dbb865da7e659b3b0e8.setIcon(icon_98e7b86fec984ccbb8b103666f82080a);
+        
+    
+        var popup_69f9b134661543f799fe28f19a3909a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48a458124ddd44e69d405f35221aa7fc = $(`<div id="html_48a458124ddd44e69d405f35221aa7fc" style="width: 100.0%; height: 100.0%;">8.2/10</div>`)[0];
+            popup_69f9b134661543f799fe28f19a3909a6.setContent(html_48a458124ddd44e69d405f35221aa7fc);
+        
+
+        marker_467ef43e6ced4dbb865da7e659b3b0e8.bindPopup(popup_69f9b134661543f799fe28f19a3909a6)
+        ;
+
+        
+    
+    
+            marker_467ef43e6ced4dbb865da7e659b3b0e8.bindTooltip(
+                `<div>
+                     The St. Regis New York
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
