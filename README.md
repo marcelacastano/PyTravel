@@ -1,8 +1,7 @@
-# PyTravel: Go, Find, Explore!
+# PyTravel: Go, Find, Explore
 
 ![Pexels01](resources/images/pexels-andrew-neel-2859169.jpg)
 *Photo by Andrew Neel from Pexels*
-
 
 <br>
 
@@ -28,23 +27,22 @@ Here's a breakdown of the solutions we provide.
 
 ## Tourism Analysis
 
-*  What has been the trend of international travel?
+* What has been the trend of international travel?
 
 ![International Travel Number of Arrivals From 1995 - 2019](resources/exploration_cleanup_notebooks/travel_analysis/scattergeo_number_arrivals_per_year.png)
 
-*  Where in the world do tourists travel the most? Continent?
+* Where in the world do tourists travel the most? Continent?
 
 ![Most Travelled to Continents From 1995 - 2019](resources/exploration_cleanup_notebooks/travel_analysis/most_travelled_to_continents.png)
 
 ![Progression of Travel From 1995 - 2019](resources/exploration_cleanup_notebooks/travel_analysis/progression_of_travel.png)
 
-*  Which countries did the most tourists travel to between the years 1995 - 2019?
+* Which countries did the most tourists travel to between the years 1995 - 2019?
 
 ![Top 10 Travel Countries From 1995 - 2019](resources/exploration_cleanup_notebooks/travel_analysis/top_10_countries.png)
 
-*  How does 2020 travel compare to travel in 2019 and thus far in 2021?
+* How does 2020 travel compare to travel in 2019 and thus far in 2021?
 ![TSA Travel 2019-2021](resources/exploration_cleanup_notebooks/travel_analysis/tsa.png)
-
 
 <br>
 
@@ -56,8 +54,6 @@ Here's a breakdown of the solutions we provide.
 
 <br>
 
-
-
 ## Trip Planner
 
 The Trip Planner Notebook generates two text files for flight and hotel quotes, and a client-focused dashboard.
@@ -66,17 +62,16 @@ The Trip Planner Notebook generates two text files for flight and hotel quotes, 
 
 *What are the flight options available for the client's intended destination?*
 
->   * A text file named `flights_output.txt` with detailed flight quote(s) information
->   * A bar plot with price for any and all quotes retrieved by the API
+> * A text file named `flights_output.txt` with detailed flight quote(s) information
+> * A bar plot with price for any and all quotes retrieved by the API
 
 ![flights](resources/exploration_cleanup_notebooks/flights_and_hotels/flights.png)
-
 
 ### Hotel Search with Booking com API
 
 *What is the hotel availability in the destination of interest?*
 
->   * A scatter plot map with the number of hotels in a given city
+> * A scatter plot map with the number of hotels in a given city
 
 ![hotel locations](resources/exploration_cleanup_notebooks/flights_and_hotels/hotel_locations.png)
 
@@ -92,11 +87,12 @@ The Trip Planner Notebook generates two text files for flight and hotel quotes, 
 
 *How can we compare hotel locations with other points of reference?*
 
->   * An interactive map with location, price and review score data for 20 hotels
+> * An interactive map with location, price and review score data for 20 hotels
 
-![hotels map](resources/exploration_cleanup_notebooks/flights_and_hotels/hotels_map.png)
+![hotels map](resources/exploration_cleanup_notebooks/flights_and_hotels/hotels_map_screenshot.png)
+
 ---
 
-### Miami FinTech Bootcamp 2021-2022
+### Miami FinTech Bootcamp 2021-2022s
 
 #### Monique Ferguson, Frank Lau and Marcela Castaño
