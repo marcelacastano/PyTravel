@@ -89,7 +89,7 @@ The Trip Planner Notebook generates two text files for flight and hotel quotes, 
 
 > * An interactive map with location, price and review score data for 20 hotels
 
-![hotels map](resources/exploration_cleanup_notebooks/flights_and_hotels/hotels_map.png)
+![hotels map](resources/exploration_cleanup_notebooks/flights_and_hotels/hotelsmap.png)
 
 ---
 
