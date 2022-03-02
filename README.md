@@ -93,6 +93,4 @@ The Trip Planner Notebook generates two text files for flight and hotel quotes, 
 
 ---
 
-### Miami FinTech Bootcamp 2021-2022
-
-#### Monique Ferguson, Frank Lau and Marcela Castaño
+#### Marcela Castaño, Monique Ferguson and Frank Lau
